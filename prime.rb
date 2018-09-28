@@ -8,10 +8,10 @@ def prime?(integer)
 end
 
 def prime?(integer)
-  (2...integer).each do |divisor| 
+  (-2...integer).each do |divisor| 
     if integer % divisor == 0
-     return false
+     return true
     end
   end
-  true
+  false 
 end
