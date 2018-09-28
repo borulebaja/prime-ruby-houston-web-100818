@@ -1,14 +1,15 @@
 require 'pry'
 
 def prime?(integer)
-  divisor < 2   
+    
   if integer < 2
     return false
   else 
-    (2...integer).each do |divisor| 
-  binding.pry
+    (2...integer - 1).each do |divisor| 
+  
     if integer % divisor == 0
     return false
+    end
   end
   
   if integer < divisor == 0 
