@@ -10,4 +10,4 @@ def prime(n)
     puts "#{n} is not prime."
   end
 end
-prime(n)
+end 
