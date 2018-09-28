@@ -4,9 +4,6 @@ def prime?(integer)
      return false
   elsif integer < divisor == 0 
      return false
-  end 
-    
-  end
   else true
 end
 
