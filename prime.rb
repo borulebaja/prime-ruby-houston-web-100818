@@ -10,8 +10,8 @@ end
 def prime?(integer)
   (-2...integer).each do |divisor| 
     if integer % divisor == 0
-     return true
+     return false
     end
   end
-  false 
+  true 
 end
