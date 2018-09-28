@@ -1,4 +1,4 @@
-#require 'pry'
+require 'pry'
 
 def prime?(integer)
    divisor < 2   
@@ -6,7 +6,7 @@ def prime?(integer)
     return false
   else 
     (2...integer).each do |divisor| 
-      #binding.pry
+      binding.pry
     if integer % divisor == 0
     return false
   end
@@ -17,4 +17,4 @@ def prime?(integer)
      true
   end
  end 
-#end
+end
