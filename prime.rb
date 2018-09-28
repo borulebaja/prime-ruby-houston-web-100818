@@ -12,7 +12,7 @@ def prime?(integer):
     while counter <= integer:
         counter +=1
         if integer % counter == 0:
-            num += 1
+            integer += 1
     if integer > 2:
         return false
     elsif integer < 2 
