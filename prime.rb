@@ -14,8 +14,10 @@ def prime?(integer):
         count +=1
         if integer % count == 0:
             num += 1
-    if num < 2:
+    if num > 2:
         return false
+    elsif num < 2 
+        return false 
     else
         return true
   end
