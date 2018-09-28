@@ -1,12 +1,8 @@
-#def prime?
-  
-#end
-def prime(n)
-  unless n.is_a? Integer
-  puts "That's not an integer."
-  if n%2 !=0 && n!=2
-    puts "#{n} is prime!"
-  else
-    puts "#{n} is not prime."
+def prime? (integer)
+  (2...integer).each do |divisor| 
+    if integer % divisor == 0
+     return false
+    end
   end
+  true
 end
