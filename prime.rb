@@ -7,3 +7,16 @@ def prime?(integer)
   true
 end
 
+def prime?(integer):
+    count = 0
+    num = 0
+    while count <= integer:
+        count +=1
+        if integer % count == 0:
+            num += 1
+    if num < 2:
+        return false
+    else
+        return true
+  end
+end
