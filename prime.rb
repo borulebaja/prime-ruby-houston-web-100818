@@ -22,7 +22,7 @@
 require 'pry'
 
 def prime?(integer)
-   divisor < 2 
+   divisor == 0  
   if integer < 2
     return false
   else 
