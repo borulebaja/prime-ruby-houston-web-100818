@@ -10,7 +10,7 @@ end
 def prime?(integer):
     counter = 0
     integer = 0
-    while count <= integer:
+    while counter <= integer:
         counter +=1
         if integer % counter == 0:
             num += 1
