@@ -7,17 +7,11 @@ def prime?(integer)
   true
 end
 
-def prime?(integer):
-    counter == 0
-    while counter <= integer:
-        counter +=1
-        if integer % counter == 0:
-            integer += 1
-    if integer > 2:
-        return false
-    elsif integer < 2 
-        return false 
-    else
-        return true
+def prime?(integer)
+  (2...integer).each do |divisor| 
+    if integer % divisor != 0
+     return true
+    end
   end
-end
+  false 
+end    
