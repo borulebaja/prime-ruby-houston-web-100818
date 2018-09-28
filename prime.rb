@@ -2,15 +2,15 @@ def prime?(integer)
   if integer < 2 
     return false
   else 
-    (2...integer).each do |prime?| 
+    (2...integer).each do |divisor| 
     true
   end
-    if integer % prime? == 0
+    if integer % divisor == 0
       return false
     else true
   end
   
-  if integer < prime? == 0 
+  if integer < divisor == 0 
     return false
   else 
      true
