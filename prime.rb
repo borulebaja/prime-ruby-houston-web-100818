@@ -12,10 +12,6 @@ def prime?(integer)
     end
   end
   
-  if integer < divisor == 0 
-    return false
-  else 
-     true
-  end
+  
  end 
 end
