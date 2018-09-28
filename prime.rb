@@ -5,5 +5,5 @@ def prime?(integer)
   elsif integer < divisor == 0 
      return false
   else true
+ end
 end
-
