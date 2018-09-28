@@ -1,5 +1,5 @@
 def prime?(integer)
-  if integer < 2
+  if integer < 2 || divisor > 2 
     return false
   else 
     (2...integer).each do |divisor| 
